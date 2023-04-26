@@ -1,5 +1,5 @@
 USE store;
-# 2.在store数据库中创建t_user用户数据表。
+# 2.在store数据库中创建t_user用户数据表
 DROP TABLE IF EXISTS t_user;
 CREATE TABLE t_user (
                         uid INT AUTO_INCREMENT COMMENT '用户id',
