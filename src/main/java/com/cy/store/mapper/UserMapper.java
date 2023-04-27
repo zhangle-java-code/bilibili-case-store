@@ -5,6 +5,8 @@ import com.cy.store.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 //用户模块持久层接口
+// ❓ MyBatis与Spring整合后需要实现实体和数据表的映射关系。实现实体和数据表的映射关系可以在Mapper接口上添加@Mapper注解。
+// 建议以后直接在SpringBoot启动类中加@MapperScan("mapper包") 注解，这样会比较方便，不需要对每个Mapper都添加@Mapper注解。
 @Mapper
 public interface UserMapper {
     /**
